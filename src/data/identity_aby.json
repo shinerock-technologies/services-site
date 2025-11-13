@@ -1,0 +1,66 @@
+{
+  "personal": {
+    "fullName": "Abraham Iberkleid",
+    "shortName": "Aby",
+    "nickname": "Aby Iberkleid",
+    "domain": "abyiber.com",
+    "brandName": "abyiber"
+  },
+  "social": {
+    "github": "https://github.com/aiberk",
+    "linkedin": "https://www.linkedin.com/in/abyiber/",
+    "twitter": "@abyiberkleid"
+  },
+  "meta": {
+    "siteUrl": "abyiber.com",
+    "siteName": "abyiber.com",
+    "logoAlt": "Aby Iberkleid Logo",
+    "favicon": "/favicon.ico",
+    "ogImage": "../public/facvicon.png"
+  },
+  "hero": {
+    "greeting": "Hello I am Aby",
+    "title": {
+      "prefix": "I am an",
+      "highlight1": "end-to-end",
+      "highlight2": "software developer",
+      "suffix": "."
+    },
+    "subtitle": "I code, design, research, plan, model, test, & connect the dots.",
+    "description": "I have a MS in Computer Science from Brandeis University and background in UX/UI design.",
+    "status": "Looking for new opportunities starting Spring 2025."
+  },
+  "heroDesign": {
+    "greeting": "Hello I am Aby",
+    "title": {
+      "prefix": "I am an",
+      "highlight1": "end-to-end",
+      "highlight2": "designer",
+      "suffix": "."
+    },
+    "subtitle": "I code, design, research, plan, model, test, & connect the dots.",
+    "description": "I am a CS graduate student with a background in UX/UI design",
+    "status": "Looking for internship opportunities starting Spring 2024 onward."
+  },
+  "pages": {
+    "home": {
+      "title": "Abraham Iberkleid's Portfolio"
+    },
+    "blog": {
+      "title": "Abraham Iberkleid's Blog",
+      "heading": "Blog"
+    },
+    "design": {
+      "title": "Abraham Iberkleid's Design"
+    },
+    "notFound": {
+      "message": "Go back to abyiber.com"
+    }
+  },
+  "footer": {
+    "copyright": "abyiber"
+  },
+  "seo": {
+    "keywords": "Abraham Iberkleid, Aby Iberkleid, Portfolio, UX/UI Design, Software Development, Computer Science"
+  }
+}

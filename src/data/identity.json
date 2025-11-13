@@ -1,0 +1,28 @@
+{
+  "company": {
+    "legalName": "Shinerock Technologies LLC",
+    "brandName": "Shinerock Labs",
+    "shortName": "Shinerock",
+    "domain": "Shinerocklabs.com",
+    "tagline": "We build, design, and automate.",
+    "basedIn": "New York City, NY"
+  },
+  "social": {
+    "github": "https://github.com/Shinerocklabs",
+    "linkedin": "https://www.linkedin.com/company/Shinerocklabs/",
+    "twitter": "@Shinerocklabs"
+  },
+  "meta": {
+    "siteUrl": "https://Shinerocklabs.com",
+    "siteName": "Shinerock Labs",
+    "logoAlt": "Shinerock Labs Logo",
+    "favicon": "/favicon.ico",
+    "ogImage": "/og-Shinerock.png"
+  },
+  "footer": {
+    "copyright": "© 2025 Shinerock Technologies LLC. All rights reserved."
+  },
+  "seo": {
+    "keywords": "Shinerock Labs, Shinerock Technologies, Software Consulting, MVP Development, AI Automation, Product Design, UX/UI Design, NYC Software Studio, Full-Stack Development, Automation Consulting"
+  }
+}

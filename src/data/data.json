@@ -1,0 +1,516 @@
+{
+  "hero": {
+    "greeting": "Shinerock Labs",
+    "title": {
+      "prefix": "Crafting products that make impact,",
+      "highlight1": "move fast, and scale with your business",
+      "highlight2": "",
+      "suffix": "",
+      "suffix2": ""
+    },
+    "subtitle": "From concept to code — we plan, prototype, build, and launch full-stack products.",
+    "description": "Shinerock Labs is a NYC-based software and design studio specializing in MVPs, full-scale systems, and AI automations. We partner with startups and teams to move fast, look sharp, and build right. With over 15 years of experience working with S&P 500 companies, startups, and small businesses, we bring enterprise-level expertise to projects of any size.",
+    "status": "Now accepting new projects and collaborations for Winter 2025."
+  },
+  "pages": {
+    "home": {
+      "title": "Shinerock Labs – Software Design & Automation Studio"
+    },
+    "work": {
+      "title": "Our Work | Shinerock Labs",
+      "heading": "Work",
+      "description": "Selected projects showcasing our expertise in design and development"
+    },
+    "services": {
+      "title": "Services | Shinerock Labs",
+      "heading": "What We Do",
+      "description": "We design, build, and automate — creating custom software, AI systems, and beautiful digital experiences."
+    },
+    "about": {
+      "title": "About Shinerock Labs",
+      "heading": "About Us",
+      "description": "Founded in NYC, Shinerock Labs merges product design, software engineering, and automation strategy to help ideas shine."
+    },
+    "contact": {
+      "title": "Contact | Shinerock Labs",
+      "heading": "Let's Build Something",
+      "description": "Ready to start? Get in touch to discuss your next build, redesign, or automation."
+    },
+    "notFound": {
+      "message": "Go back to Shinerocklabs.com"
+    },
+    "blog": {
+      "title": "Blog | Shinerock Labs",
+      "heading": "Blog",
+      "description": "Insights on software development, design, and automation"
+    }
+  },
+  "services": {
+    "items": [
+      {
+        "title": "MVP Development",
+        "description": "Full-stack product builds from concept to launch",
+        "image": "/services/mvp.png"
+      },
+      {
+        "title": "Process Automation",
+        "description": "AI-powered workflows for documents, data extraction, and intelligent processing",
+        "image": "/services/ai.png"
+      },
+      {
+        "title": "Custom Software",
+        "description": "Tailored solutions for unique business needs",
+        "image": "/services/custom.png"
+      },
+      {
+        "title": "Content Creation",
+        "description": "Compelling digital content that engages and converts",
+        "image": "/services/content.png"
+      },
+      {
+        "title": "Marketing & Growth",
+        "description": "Data-driven strategies to amplify your reach",
+        "image": "/services/marketing.png"
+      },
+      {
+        "title": "IoT & Hardware",
+        "description": "Connected devices and embedded systems integration",
+        "image": "/services/hardware.png"
+      }
+    ]
+  },
+  "process": {
+    "heading": "How we start",
+    "subheading": "Our streamlined process takes you from idea to launch",
+    "cta": {
+      "title": "Kick off with a product strategy session",
+      "description": "Ready to turn your idea into reality? Let's discuss your project and create a roadmap for success.",
+      "buttonText": "Book a consultation",
+      "buttonLink": "/bio/Contact"
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title": "Intro call",
+        "duration": "30 min",
+        "description": "We jump on a call to ensure we fully grasp your ideas and challenges"
+      },
+      {
+        "number": "02",
+        "title": "Discovery Stage",
+        "duration": "3-7 days",
+        "description": "Our delivery team builds a roadmap with timelines, resources, and potential risks"
+      },
+      {
+        "number": "03",
+        "title": "Team setup",
+        "duration": "5-10 days",
+        "description": "Once roadmap is agreed upon, we assemble a team with the right skill set"
+      },
+      {
+        "number": "04",
+        "title": "Kick-off",
+        "duration": "2 days",
+        "description": "After signing a contract and completing setup procedures, your team is ready to start"
+      }
+    ]
+  },
+  "consultations": {
+    "hero": {
+      "title": "Expert Consulting Services",
+      "subtitle": "Strategic guidance and hands-on support for your software projects.",
+      "description": "From UX design to software engineering, we provide expert consulting to help you build better products faster."
+    },
+    "heading": "Consulting Options",
+    "subheading": "Flexible consulting services tailored to your needs. From one-time projects to ongoing partnerships.",
+    "whatsIncluded": {
+      "title": "What's included in every plan",
+      "items": [
+        {
+          "title": "Direct Communication",
+          "description": "Work directly with our team, no middlemen or account managers"
+        },
+        {
+          "title": "Agile Process",
+          "description": "Iterative development with regular check-ins and updates"
+        },
+        {
+          "title": "Modern Stack",
+          "description": "Built with cutting-edge technologies for performance and scalability"
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Thorough testing and code reviews before every deployment"
+        }
+      ]
+    },
+    "caseStudies": {
+      "title": "Success Stories",
+      "subtitle": "See how we've helped businesses transform their operations",
+      "studies": [
+        {
+          "title": "Startup MVP Launch",
+          "client": "Tech Startup",
+          "description": "Helped a fintech startup launch their MVP in 10 weeks, securing $2M in seed funding.",
+          "results": "10-week timeline, $2M raised, 5,000+ users in first month"
+        },
+        {
+          "title": "Enterprise Consulting",
+          "client": "Fortune 500 Company",
+          "description": "Provided UX consulting for a major product redesign, improving user satisfaction by 40%.",
+          "results": "40% increase in satisfaction, 25% reduction in support tickets"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Schedule a free consultation to discuss your project and find the perfect plan for your needs.",
+      "buttonText": "Schedule a Consultation"
+    },
+    "faq": [
+      {
+        "question": "Can I switch plans?",
+        "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle."
+      },
+      {
+        "question": "What's included in the monthly retainer?",
+        "answer": "You get dedicated UX and software engineering support with priority response times. Perfect for ongoing product development and maintenance."
+      },
+      {
+        "question": "Do you offer refunds?",
+        "answer": "For one-time projects, we work in milestones with payments tied to deliverables. Monthly retainers can be cancelled anytime with no penalties."
+      },
+      {
+        "question": "What technologies do you work with?",
+        "answer": "We specialize in modern web technologies including React, Next.js, Node.js, Python, and cloud platforms like AWS and Vercel."
+      }
+    ],
+    "plans": [
+      {
+        "name": "One-Time Project",
+        "price": "Starting at $500",
+        "description": "Perfect for single projects with defined scope",
+        "features": [
+          "Full project scope definition",
+          "Design & development",
+          "Testing & deployment",
+          "30 days post-launch support",
+          "Source code ownership"
+        ],
+        "cta": "Get a Quote",
+        "popular": false
+      },
+      {
+        "name": "Monthly Retainer",
+        "price": "Starting at $1,200",
+        "period": "/month",
+        "description": "Ongoing UX & software engineering consulting",
+        "features": [
+          "Anytime UX consulting",
+          "Software engineering support",
+          "Priority response time",
+          "Monthly strategy sessions",
+          "Flexible scope adjustments",
+          "Cancel anytime"
+        ],
+        "cta": "Get Started",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Custom",
+        "price": "Let's Talk",
+        "description": "Tailored solutions for large-scale needs",
+        "features": [
+          "Dedicated team",
+          "Custom SLA agreements",
+          "Advanced security & compliance",
+          "24/7 priority support",
+          "Scalable infrastructure",
+          "White-label options"
+        ],
+        "cta": "Contact Sales",
+        "popular": false
+      }
+    ]
+  },
+  "development": {
+    "hero": {
+      "title": "Software Development Pricing",
+      "subtitle": "Build your product with our expert development team.",
+      "description": "From MVPs to enterprise applications, we deliver high-quality software solutions tailored to your needs."
+    },
+    "heading": "Development Plans",
+    "subheading": "Flexible pricing for software development projects of any size.",
+    "whatsIncluded": {
+      "title": "What's included in every project",
+      "items": [
+        {
+          "title": "Full-Stack Development",
+          "description": "Frontend, backend, and database architecture built to scale"
+        },
+        {
+          "title": "Modern Technologies",
+          "description": "React, Next.js, Node.js, Python, and cloud infrastructure"
+        },
+        {
+          "title": "CI/CD Pipeline",
+          "description": "Automated testing and deployment for faster iterations"
+        },
+        {
+          "title": "Documentation",
+          "description": "Complete technical documentation and code comments"
+        }
+      ]
+    },
+    "caseStudies": {
+      "title": "Success Stories",
+      "subtitle": "Real results from our development projects",
+      "studies": [
+        {
+          "title": "SaaS Platform Build",
+          "client": "B2B SaaS Company",
+          "description": "Built a complete SaaS platform from scratch, handling 10,000+ daily active users.",
+          "results": "10,000+ DAU, 99.9% uptime, $500K ARR in year one"
+        },
+        {
+          "title": "Mobile App Development",
+          "client": "Healthcare Startup",
+          "description": "Developed a HIPAA-compliant mobile app connecting patients with healthcare providers.",
+          "results": "50,000+ downloads, 4.8★ rating, Featured by Apple"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to build your product?",
+      "description": "Let's discuss your project requirements and create a custom development plan.",
+      "buttonText": "Start Your Project"
+    },
+    "faq": [
+      {
+        "question": "What's your development process?",
+        "answer": "We follow an agile methodology with 2-week sprints, regular demos, and continuous feedback loops to ensure we're building exactly what you need."
+      },
+      {
+        "question": "How long does a typical project take?",
+        "answer": "MVPs typically take 8-12 weeks, while larger applications can take 3-6 months. We'll provide a detailed timeline during our initial consultation."
+      },
+      {
+        "question": "Do you provide ongoing maintenance?",
+        "answer": "Yes! We offer maintenance packages starting at $1,200/month for bug fixes, updates, and feature enhancements."
+      },
+      {
+        "question": "Can you work with our existing codebase?",
+        "answer": "Absolutely. We can audit, refactor, or extend your existing application with new features and improvements."
+      }
+    ],
+    "plans": [
+      {
+        "name": "MVP Package",
+        "price": "Starting at $15,000",
+        "description": "Perfect for validating your idea quickly",
+        "features": [
+          "Core feature development",
+          "Responsive web application",
+          "User authentication",
+          "Database setup",
+          "8-10 week timeline",
+          "2 rounds of revisions"
+        ],
+        "cta": "Get Started",
+        "popular": false
+      },
+      {
+        "name": "Full Product",
+        "price": "Starting at $35,000",
+        "description": "Complete product development from concept to launch",
+        "features": [
+          "Full feature set",
+          "Custom design system",
+          "API integrations",
+          "Admin dashboard",
+          "12-16 week timeline",
+          "Unlimited revisions",
+          "3 months support"
+        ],
+        "cta": "Build Your Product",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Solution",
+        "price": "Custom Pricing",
+        "description": "Large-scale applications with advanced requirements",
+        "features": [
+          "Scalable architecture",
+          "Advanced security",
+          "Multi-tenant support",
+          "Custom integrations",
+          "Dedicated team",
+          "Ongoing support",
+          "SLA guarantees"
+        ],
+        "cta": "Contact Us",
+        "popular": false
+      }
+    ]
+  },
+  "automations": {
+    "hero": {
+      "title": "AI & Process Automation",
+      "subtitle": "Automate workflows, extract data, and scale operations with AI.",
+      "description": "From document processing to intelligent workflows, we build automation solutions that save time and reduce errors."
+    },
+    "heading": "Automation Solutions",
+    "subheading": "Custom AI-powered automation tailored to your business processes.",
+    "whatsIncluded": {
+      "title": "What's included in every automation",
+      "items": [
+        {
+          "title": "AI Integration",
+          "description": "OpenAI, Claude, and custom ML models for intelligent processing"
+        },
+        {
+          "title": "Document Processing",
+          "description": "PDF extraction, OCR, and automated data entry"
+        },
+        {
+          "title": "Workflow Automation",
+          "description": "Connect your tools and automate repetitive tasks"
+        },
+        {
+          "title": "Monitoring & Analytics",
+          "description": "Track performance and ROI of your automations"
+        }
+      ]
+    },
+    "caseStudies": {
+      "title": "Success Stories",
+      "subtitle": "How automation transformed these businesses",
+      "studies": [
+        {
+          "title": "Document Processing Automation",
+          "client": "Legal Firm",
+          "description": "Automated contract review and data extraction, saving 20 hours per week.",
+          "results": "80% time savings, 95% accuracy, ROI in 3 months"
+        },
+        {
+          "title": "Workflow Integration",
+          "client": "E-commerce Company",
+          "description": "Connected 5 systems to automate order processing and inventory management.",
+          "results": "Zero manual data entry, 50% faster fulfillment, $100K saved annually"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to automate?",
+      "description": "Let's identify the processes that will benefit most from automation and build a custom solution.",
+      "buttonText": "Discuss Automation"
+    },
+    "faq": [
+      {
+        "question": "What processes can be automated?",
+        "answer": "We can automate document processing, data entry, email workflows, report generation, customer onboarding, and much more. If it's repetitive, it can likely be automated."
+      },
+      {
+        "question": "How much time will automation save?",
+        "answer": "Most clients see 60-80% time savings on automated processes. We'll analyze your current workflow and provide specific estimates during consultation."
+      },
+      {
+        "question": "Do you use AI in automations?",
+        "answer": "Yes! We integrate GPT-4, Claude, and custom ML models for intelligent document processing, data extraction, and decision-making workflows."
+      },
+      {
+        "question": "Can you integrate with our existing tools?",
+        "answer": "Absolutely. We work with most popular tools via APIs including Salesforce, HubSpot, Google Workspace, Microsoft 365, and custom systems."
+      }
+    ],
+    "plans": [
+      {
+        "name": "Single Automation",
+        "price": "Starting at $5,000",
+        "description": "Automate one specific workflow or process",
+        "features": [
+          "Process analysis",
+          "Custom automation build",
+          "API integrations",
+          "Testing & deployment",
+          "4-6 week timeline",
+          "Documentation"
+        ],
+        "cta": "Automate Now",
+        "popular": false
+      },
+      {
+        "name": "Automation Suite",
+        "price": "Starting at $15,000",
+        "description": "Multiple connected automations for end-to-end workflows",
+        "features": [
+          "3-5 automations",
+          "AI-powered processing",
+          "Dashboard & reporting",
+          "Error handling",
+          "8-10 week timeline",
+          "3 months support",
+          "Training included"
+        ],
+        "cta": "Get Started",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Automation",
+        "price": "Custom Pricing",
+        "description": "Large-scale automation with ongoing optimization",
+        "features": [
+          "Unlimited automations",
+          "Dedicated automation team",
+          "Advanced AI models",
+          "Custom integrations",
+          "Priority support",
+          "Continuous optimization",
+          "ROI tracking"
+        ],
+        "cta": "Contact Us",
+        "popular": false
+      }
+    ]
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Consulting for Startups", "path": "/consulting" },
+          { "label": "MVP Development", "path": "/development" },
+          { "label": "AI & Process Automation", "path": "/automations" },
+          { "label": "Full-Stack Development", "path": "/development" },
+          { "label": "UX/UI Design", "path": "/consulting" }
+        ]
+      },
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "MVPs for SMBs", "path": "/development" },
+          { "label": "Enterprise Software", "path": "/development" },
+          { "label": "Document Automation", "path": "/automations" },
+          { "label": "Workflow Integration", "path": "/automations" },
+          { "label": "Monthly Retainers", "path": "/consulting" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "path": "/bio/About" },
+          { "label": "Blog", "path": "/blog" },
+          { "label": "Contact", "path": "/bio/Contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Consulting", "path": "/consulting" },
+          { "label": "Development", "path": "/development" },
+          { "label": "Automations", "path": "/automations" }
+        ]
+      }
+    ]
+  }
+}

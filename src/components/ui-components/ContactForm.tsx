@@ -1,0 +1,108 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import { useForm } from "react-hook-form";
+
+type FormData = {
+  name: string;
+  lastName: string;
+  email: string;
+  message: string;
+};
+
+const ContactForm = () => {
+  const { register, handleSubmit, reset, formState } = useForm({
+    defaultValues: { name: "", lastName: "", email: "", message: "" },
+  });
+
+  const [successMessage, setSuccessMessage] = useState(false);
+
+  const onFormSubmit = (data: FormData) => {
+    fetch(`https://eoool18qsq2s2me.m.pipedream.net`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ...data }),
+    })
+      .then(() => {
+        setSuccessMessage(true);
+      })
+      .catch((e) => console.error(e));
+  };
+
+  useEffect(() => {
+    if (formState.isSubmitSuccessful) {
+      reset({ name: "", lastName: "", email: "", message: "" });
+    }
+  }, [formState, reset]);
+
+  const sharedClassNames = "dark:bg-zinc-900 focus:ring-zinc-200";
+
+  return (
+    <div className="w-full">
+      <form
+        onSubmit={handleSubmit(onFormSubmit)}
+        className="grid grid-cols-1 p-1 gap-2"
+        action="/"
+        method="post">
+        <label htmlFor="name">First name:</label>
+        <input
+          className={`${sharedClassNames}`}
+          type="text"
+          id="first"
+          {...register("name", { required: true })}
+        />
+        <label htmlFor="lastName">Last name:</label>
+        <input
+          type="text"
+          className={`${sharedClassNames}`}
+          id="last"
+          {...register("lastName", { required: true })}
+        />
+        <label htmlFor="email">Email</label>
+        <input
+          type="email"
+          className={`${sharedClassNames}`}
+          id="email"
+          {...register("email", { required: true })}
+        />
+        <label htmlFor="message">Message</label>
+        <textarea
+          className={`${sharedClassNames}`}
+          id="body"
+          placeholder=" Write your message here..."
+          rows={10}
+          cols={50}
+          {...register("message", { required: true })}></textarea>
+        <br />
+        <button
+          className="
+                    border-2
+                    border-zinc-500
+                   hover:bg-zinc-500
+                   hover:text-white
+                    mt-1
+                    block
+                    w-full
+                    dark:bg-zinc-900
+                    dark:hover:bg-zinc-500
+                    p-2
+                  "
+          type="submit"
+          id="submit">
+          Submit
+        </button>
+      </form>
+      {successMessage && (
+        <div
+          id="successMessage"
+          className="flex flex-col justify-center items-center mt-5">
+          <p id="successMessage1">Thanks for the message! 😊</p>
+          <p id="successMessage2">I will get back to you as soon as possible</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default ContactForm;
